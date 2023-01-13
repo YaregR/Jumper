@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="start" style="display: block;">			
+        <h2>Choose player</h2>
+        <div class="select-player">
+            <div class="selected" id="skin_1"></div>			
+            <div id="skin_2"></div>
+            <div id="skin_3"></div>
+            <div id="skin_4"></div>
+        </div>
+        <button id="start-btn">Start</button>
+    </div>
+
+    <div class="game" style="display: none;">
+
+        <div id="player" class="skin_1"></div>
+        <div id="enemy"></div>
+        
+    </div>
+
+    <div class="end" style="display: none">
+			
+        <h2>You lose</h2>
+        <button id="end-btn">ReStart</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
